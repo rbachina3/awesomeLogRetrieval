@@ -1,0 +1,78 @@
+
+{
+    "frequent_pattern": {
+        "servers": [
+            {
+                "hostname": "fa22-cs425-6901.cs.illinois.edu",
+                "port": 8000,
+                "expected_line_count": 472
+            },
+            {
+                "hostname": "fa22-cs425-6902.cs.illinois.edu",
+                "port": 8000,
+                "expected_line_count": 472
+            },
+            {
+                "hostname": "fa22-cs425-6903.cs.illinois.edu",
+                "port": 8000,
+                "expected_line_count": 375
+            },
+            {
+                "hostname": "fa22-cs425-6904.cs.illinois.edu",
+                "port": 8000,
+                "expected_line_count": 0
+            }
+        ],
+        "pattern": "GET"
+    },
+    "infrequent_pattern": {
+        "servers": [
+            {
+                "hostname": "fa22-cs425-6901.cs.illinois.edu",
+                "port": 8000,
+                "expected_line_count": 0
+            },
+            {
+                "hostname": "fa22-cs425-6902.cs.illinois.edu",
+                "port": 8000,
+                "expected_line_count": 144
+            },
+            {
+                "hostname": "fa22-cs425-6903.cs.illinois.edu",
+                "port": 8000,
+                "expected_line_count": 200
+            },
+            {
+                "hostname": "fa22-cs425-6904.cs.illinois.edu",
+                "port": 8000,
+                "expected_line_count": 0
+            }
+        ],
+        "pattern": "Chrome"
+    },
+    "invalid_servers": {
+        "servers": [
+            {
+                "hostname": "fa22-cs425-6901.cs.illinois.edu",
+                "port": 8000,
+                "expected_line_count": 0
+            },
+            {
+                "hostname": "fa22-cs425-6902.cs.illinois.edu",
+                "port": 8000,
+                "expected_line_count": 0
+            },
+            {
+                "hostname": "fa22-cs425-6903.cs.illinois.edu",
+                "port": 8000,
+                "expected_line_count": 0
+            },
+            {
+                "hostname": "fa22-cs425-6904.cs.illinois.edu",
+                "port": 8000,
+                "expected_line_count": 0
+            }
+        ],
+        "pattern": "a"
+    }
+}
